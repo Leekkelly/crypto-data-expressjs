@@ -1,0 +1,13 @@
+###
+GET http://localhost:8000/
+
+###
+GET http://localhost:8000/api/crypto?crypto=ethereum
+
+###
+POST http://localhost:8000/api/postData
+Content-Type: application/json
+
+{
+    "inputData": "Crypto of the day"
+}
