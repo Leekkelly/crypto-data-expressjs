@@ -11,3 +11,6 @@ Content-Type: application/json
 {
     "inputData": "Crypto of the day"
 }
+
+###
+GET https://crypto-data-expressjs.onrender.com/api/crypto?crypto=ethereum
